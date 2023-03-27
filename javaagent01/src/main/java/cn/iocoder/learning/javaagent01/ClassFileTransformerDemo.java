@@ -16,7 +16,7 @@ public class ClassFileTransformerDemo implements ClassFileTransformer {
             return null;
         }
 //        return getBytesFromFile("cn/iocoder/learning/Cat");
-        return getBytesFromFile("/Users/yunai/Java/learning/example01/Dog.class");
+        return getBytesFromFile("/Users/jijiang.wang/IdeaProjects/javaagent/bytebuddy/target/classes/cn/iocoder/learning/Dog.class");
     }
 
     public static byte[] getBytesFromFile(String fileName) {
